@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>???</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="background-pattern" id="bgPattern"></div>
+
+<div class="container">
+  <div class="hidden-text" id="hiddenText"></div>
+  <div class="line" id="mainLine">
+    <div class="line-bar" id="lineBar"></div>
+    <!-- Removido o SRC das imagens para não carregar arquivos individuais -->
+    <div class="point green" id="greenDot"></div>
+    <div class="point red" id="redDot"></div>
+    </div>
+  <div class="vortex" id="vortex"></div>
+</div>
+
+<!-- novo fundo único, centralizado, atrás de tudo -->
+<div class="final-bg" id="finalBg"></div>
+
+<!-- imagem/texto final, em cima de tudo -->
+<div class="final-image-wrapper" id="finalImageWrapper">
+  <!-- Trocado tag img por uma div controlada por CSS -->
+  <div class="final-image" id="finalImage"></div>
+  <div class="final-image-text" id="finalImageText"></div>
+</div>
+
+  <audio id="bgMusic" src="musica.mp3" loop></audio>
+
+  <script src="script.js"></script>
+  <div class="secret-message" id="secretMsg"></div>
+
+</body>
+</html>
